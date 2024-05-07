@@ -15,3 +15,5 @@ El código permite la integración del catálogo final de sismicidad (Catalogo F
 
 #### 05_inputs_growclust.py
 El código se subdivide en tres secciones: Procesamiento Origins, Procesamiento Picks y Procesamiento Stations. Se encarga de procesar los catálogos, encontrando pares de eventos cercanos detectados en estaciones en común, generar correlaciones cruzadas y sintetizar las estaciones sismológicas en formato .pkl. Estos archivos son el input para la ejecución final de GrowClust en Fortran.
+
+Por último, se adjuntan en la carpeta 'Bases de datos' el catálogo unificado de sismicidad con información de sismos entre 1980 y 2023 en la zona de estudio (Valle Medio del Magdalena y Nido Sísmico de Bucaramanga) y el catálogo relocalizado (salida de GrowClust) con datos entre 2016 y 2021.
